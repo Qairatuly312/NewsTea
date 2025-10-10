@@ -18,16 +18,25 @@
     <header class="container-fluid bg-light py-3 border-bottom">
         <div class="row align-items-center">
             <!-- Left section (2 columns) -->
-            <div class="col-2 text-start">
-                <h5 class="m-0">Logo</h5>
+            <div class="col-2 text-start d-flex column-gap-4 justify-content-middle" style="vertical-align: middle;">
+                <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        t
+                    </button>
+                </p>
+                <h5 class="m-0">NewsTea</h5>
             </div>
 
             <!-- Middle section (8 columns) -->
             <div class="col-8 text-start ">
-                <nav>
-                    <a href="#" class="mx-3 text-decoration-none text-dark nav1">Home</a>
-                    <a href="#" class="mx-3 text-decoration-none text-dark">About</a>
-                    <a href="#" class="mx-3 text-decoration-none text-dark">Contact</a>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border-radius: 20px; background: rgb(249, 249, 249); border: none;"/>
+                    </form>
+                    </div>
+                </div>
                 </nav>
             </div>
 
@@ -38,35 +47,62 @@
         </div>
     </header>
 
-    <div class="row align-items-center">
-        <div class="col-2">
-            <nav class="navbar bg-body-tertiary row-gap-4 ms-3">
-                <a class="navbar-brand  " href="#">
+    <div class="row">
+        <div class="col-3 collapse collapse-horizontal" id="navbar">
+            
+            <nav class="nav flex-column bg-body-tertiary row-gap-4 ms-0">
+                <a class="nav-link" href="#">
                     <img src="IMG_4577.jpg" alt="Logo" width="30" height="24"
                          class="align-text-top">
-                    Bootstrap
+                    Home
                 </a>
-                <a class="navbar-brand  " href="#">
+                <a class="nav-link" href="#">
                     <img src="IMG_4577.jpg" alt="Logo" width="30" height="24"
                          class="align-text-top">
-                    Bootstrap
+                    Library
                 </a>
-                <a class="navbar-brand  " href="#">
+                <a class="nav-link" href="#">
                     <img src=" IMG_4577.jpg" alt="Logo" width="30" height="24"
                          class="align-text-top">
-                    Bootstrap
+                    Profile
                 </a>
-                <a class="navbar-brand  " href="#">
+                <a class="nav-link" href="#">
                     <img src=" IMG_4577.jpg" alt="Logo" width="30" height="24"
                          class="align-text-top">
-                    Bootstrap
-                </a> <a class="navbar-brand  " href="#">
+                    Stories
+                </a>
+                <a class="nav-link" href="#">
                     <img src=" IMG_4577.jpg" alt="Logo" width="30" height="24"
                          class="align-text-top">
-                    Bootstrap
+                    Stats
                 </a>
             </nav>
         </div>
+
+        <div class="col-5">
+            <div class="row align-items-start">
+                <div class="col-3">
+                </div>
+                <div class="col-6">
+                One of three columns
+                </div>
+                <div class="col-3">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="row align-items-start">
+                <div class="col-1">
+                </div>
+                <div class="col-10">
+                One of three columns
+                </div>
+                <div class="col-1">
+                </div>
+            </div>
+        </div>
+
     </div>
 
 </div>
