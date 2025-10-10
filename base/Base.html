@@ -14,29 +14,28 @@
 <body>
 
 <div class="container-fluid" style="padding: 0">
-    <!-- Bootstrap 5+ header layout -->
+    <!-- remove style="background-color: lightblue" -->
     <header class="container-fluid bg-light border-bottom p-0">
-        <div class="row align-items-center">
-            <!-- Left section (2 columns) -->
-            <div class="col-2 text-start d-flex column-gap-4 justify-content-middle">
-                <h5 class="m-0 px-3 logo-text">NewsTea</h5>
+        <div class="row align-items-center p-0">
+            <div class="col-2 justify-content-sm-start d-flex p-0"
+                 style="background-color: lightcyan;">
+                <button class="btn py-0" style="border: none"><span class="m-0 logo-text">NewsTea</span></button>
             </div>
 
-            <!-- Middle section (8 columns) -->
-            <div class="col-8 text-start">
-                <nav class="navbar navbar-expand-lg ">
+
+            <div class="col-8 text-start p-0">
+                <nav class="navbar navbar-expand-lg" style="background-color: lightpink">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
-                                   style="border: 1px solid black; background: rgb(249, 249, 249); border-radius: 50px;"/>
+                                   style="border: none; background: rgb(238,238,238); border-radius: 50px;"/>
                         </form>
                     </div>
                     `
                 </nav>
             </div>
 
-            <!-- Right section (2 columns) -->
-            <div class="col-2 text-end justify-content-sm-end d-flex">
+            <div class="col-2 text-end justify-content-sm-end d-flex p-0" style="background-color: lightsalmon">
                 <button class="btn btn-transp gap-2" type="button">
                     <svg class="svg-icon"
                          style="width: 1.5em; height: 1.5em; fill: currentColor;"
