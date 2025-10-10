@@ -3,3 +3,28 @@
     font-size: 32px;
     font-weight: bold;
 }
+
+.btn-transp{
+    background-color: transparent;
+    border: none;
+    color: darkgray;
+}
+
+.btn-transp:hover{
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+.button-transparent{
+    background-color: transparent;
+    border: none;
+}
+
+.main-pfp{
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    margin-top: 4px;
+    margin-right: 10px;
+}
