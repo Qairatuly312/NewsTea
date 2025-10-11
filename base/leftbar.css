@@ -1,9 +1,22 @@
-#sidebar {
-    --bs-collapse-width: 250px;
+#sidebar.collapse-horizontal {
+    transition: width 0.4s ease-in-out;
+    overflow: hidden;
+}
+
+#sidebar.show {
+    width: 150px;
+}
+
+#sidebar.collapsing {
+    width: 0 !important;
+}
+
+#sidebar.collapse:not(.show) {
+    width: 0;
 }
 
 @media (min-width: 1200px) {
-    #sidebar {
-        --bs-collapse-width: 400px;
+    #sidebar.show {
+        width: 250px;
     }
 }
