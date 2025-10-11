@@ -1,3 +1,9 @@
-.nav1{
-    margin-top: 10px;
+#sidebar {
+    --bs-collapse-width: 250px;
+}
+
+@media (min-width: 1200px) {
+    #sidebar {
+        --bs-collapse-width: 400px;
+    }
 }
