@@ -17,7 +17,7 @@
 
 @media (min-width: 1200px) {
     #sidebar.show {
-        width: 250px;
+        width: 14rem;
     }
 }
 
@@ -27,6 +27,8 @@
         display: none;
     }
 
-
+    #sidebar.show {
+        width: 4rem;
+    }
 
 }
