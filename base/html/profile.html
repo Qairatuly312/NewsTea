@@ -7,11 +7,11 @@
     <title>NewsTea</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/leftbar.css">
+    <link rel="stylesheet" href="../css/general/header.css">
+    <link rel="stylesheet" href="../css/general/leftbar.css">
     <link rel="stylesheet" href="../css/main/mainbody.css">
-    <link rel="stylesheet" href="../css/rightbar.css">
-    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/general/rightbar.css">
+    <link rel="stylesheet" href="../css/general/general.css">
     <link rel="stylesheet" href="../css/profile.css">
 </head>
 <body>
@@ -34,14 +34,13 @@
 
 
             <div class="col-8 text-start p-0">
-                <nav class="navbar navbar-expand-lg" style="">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <form class="d-flex" role="search" style="width: 30%;">
-                            <input class="form-control px-4" type="search" placeholder="Search" aria-label="Search"
-                                   style="border: none; background: rgb(238,238,238); border-radius: 50px; font-weight: 300;"/>
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                            <button class="btn btn-outline-dark" type="submit">Search</button>
                         </form>
                     </div>
-
                 </nav>
             </div>
 

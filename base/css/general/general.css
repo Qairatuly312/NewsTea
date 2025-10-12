@@ -28,7 +28,6 @@ a {
     .news-card-img {
         height: 180px;
         border-top-left-radius: 0;
-        /* Make cards take almost full width in main body */
 
         .p-3[style*="width: 70%"] .col-2 {
             flex: 0 0 auto;
@@ -40,7 +39,6 @@ a {
             width: 90% !important;
         }
 
-        /* Global mobile layout adjustments */
         @media (max-width: 992px) {
             .d-flex[style*="min-height: 90vh"] > .p-3[style*="width: 70%"] {
                 width: 100% !important;
@@ -50,7 +48,7 @@ a {
             .d-flex[style*="min-height: 90vh"] > .p-3[style*="width: 70%"] .col-2 {
                 display: none !important;
             }
-    
+
             .d-flex[style*="min-height: 90vh"] > .p-3[style*="width: 70%"] .col-8 {
                 flex: 0 0 auto;
                 width: 100% !important;
