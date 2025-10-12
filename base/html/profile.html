@@ -7,12 +7,12 @@
     <title>NewsTea</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="leftbar.css">
-    <link rel="stylesheet" href="mainbody.css">
-    <link rel="stylesheet" href="rightbar.css">
-    <link rel="stylesheet" href="general.css">
-    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/leftbar.css">
+    <link rel="stylesheet" href="../css/main/mainbody.css">
+    <link rel="stylesheet" href="../css/rightbar.css">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/profile.css">
 </head>
 <body>
 <div class="container-fluid" style="padding: 0">
@@ -61,7 +61,7 @@
                         <path d="M12 22c1.104 0 2-.896 2-2H10c0 1.104.896 2 2 2zm6-6V10c0-3.314-2.686-6-6-6V3a1 1 0 0 0-2 0v1c-3.314 0-6 2.686-6 6v6l-2 2h16l-2-2z"/>
                     </svg>
                 </button>
-                <button class="button-transparent"><img class="main-pfp" src="imgs/IMG_4577.jpg" alt=""></button>
+                <button class="button-transparent"><img class="main-pfp" src="../imgs/IMG_4577.jpg" alt=""></button>
             </div>
         </div>
     </header>
@@ -71,23 +71,23 @@
              style=" border-right: 1px solid lightgray;">
             <nav class="nav flex-column row-gap-4 ms-0 px-lg-4 px-md-0">
                 <a class="nav-link d-flex align-items-center" href="Main.html" style="color: darkgray;">
-                    <img src="imgs/IMG_4577.jpg" alt="Logo" width="30" height="24" class="me-2 rounded-circle">
+                    <img src="../imgs/IMG_4577.jpg" alt="Logo" width="30" height="24" class="me-2 rounded-circle">
                     <span>Home</span>
                 </a>
                 <a class="nav-link d-flex align-items-center" href="#" style="color: darkgray;">
-                    <img src="imgs/IMG_4577.jpg" alt="Logo" width="30" height="24" class="me-2 rounded-circle">
+                    <img src="../imgs/IMG_4577.jpg" alt="Logo" width="30" height="24" class="me-2 rounded-circle">
                     <span>Library</span>
                 </a>
                 <a class="nav-link d-flex align-items-center" href="profile.html" style="color: darkgray;">
-                    <img src="imgs/IMG_4577.jpg" alt="Logo" width="30" height="24" class="me-2 rounded-circle">
+                    <img src="../imgs/IMG_4577.jpg" alt="Logo" width="30" height="24" class="me-2 rounded-circle">
                     <span>Profile</span>
                 </a>
                 <a class="nav-link d-flex align-items-center" href="#" style="color: darkgray;">
-                    <img src="imgs/IMG_4577.jpg" alt="Logo" width="30" height="24" class="me-2 rounded-circle">
+                    <img src="../imgs/IMG_4577.jpg" alt="Logo" width="30" height="24" class="me-2 rounded-circle">
                     <span>Stories</span>
                 </a>
                 <a class="nav-link d-flex align-items-center" href="#" style="color: darkgray;">
-                    <img src="imgs/IMG_4577.jpg" alt="Logo" width="30" height="24" class="me-2 rounded-circle">
+                    <img src="../imgs/IMG_4577.jpg" alt="Logo" width="30" height="24" class="me-2 rounded-circle">
                     <span>Stats</span>
                 </a>
             </nav>
@@ -111,9 +111,15 @@
                                     </svg>
                                 </button>
                             </div>
-                            <div class="profile-nav">
-                                <a href="#" class="nav-tab active">Home</a>
-                                <a href="#" class="nav-tab">About</a>
+                            <div class="profile-nav" style="align-content: center;">
+                                <ul class="nav nav-underline">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Active</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -121,7 +127,7 @@
                     <div class="profile-info-section">
                         <div class="profile-info-content">
                             <div class="profile-avatar-section">
-                                <img src="imgs/IMG_4577.jpg" alt="Not Found" class="profile-avatar">
+                                <img src="../imgs/IMG_4577.jpg" alt="Not Found" class="profile-avatar">
                                 <span class="profile-username">Maksatovdias</span>
                             </div>
                         </div>
@@ -146,7 +152,7 @@
                             <article class="reading-card">
                                 <div class="rc-header">
                                     <div class="rc-author">
-                                        <img src="imgs/IMG_4577.jpg" alt="Not found" class="rc-avatar">
+                                        <img src="../imgs/IMG_4577.jpg" alt="Not found" class="rc-avatar">
                                         <span class="rc-author-name">Maksatovdias</span>
                                     </div>
                                     <button class="rc-menu-btn" aria-label="Card menu"></button>
@@ -168,7 +174,7 @@
                             <article class="reading-card">
                                 <div class="rc-header">
                                     <div class="rc-author">
-                                        <img src="imgs/IMG_4577.jpg" alt="Not found" class="rc-avatar">
+                                        <img src="../imgs/IMG_4577.jpg" alt="Not found" class="rc-avatar">
                                         <span class="rc-author-name">Qairatulyerasyl</span>
                                     </div>
                                     <button class="rc-menu-btn" aria-label="Card menu"></button>
@@ -195,7 +201,7 @@
                 <div class="sidebar-container">
                     <div class="sidebar-profile-card">
                         <div class="sidebar-profile-header">
-                            <img src="imgs/IMG_4577.jpg" alt="Not found" class="sidebar-profile-avatar">
+                            <img src="../imgs/IMG_4577.jpg" alt="Not found" class="sidebar-profile-avatar">
                         </div>
                         <div class="sidebar-profile-info">
                             <h3 class="sidebar-profile-name">

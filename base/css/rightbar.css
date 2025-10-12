@@ -10,7 +10,6 @@
     margin-bottom: 200px;
 }
 
-/* Mobile responsive: hide rightbar on main pages (not profile) */
 @media (max-width: 992px) {
     .p-3[style*="width: 30%"][style*="border-left"] {
         display: none !important;
