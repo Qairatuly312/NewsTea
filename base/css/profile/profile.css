@@ -245,3 +245,7 @@
         margin-top: 24px;
     }
 }
+
+.profile-menu-btn::after {
+    display: none !important;
+}

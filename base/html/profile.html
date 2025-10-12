@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="../css/main/mainbody.css">
     <link rel="stylesheet" href="../css/general/rightbar.css">
     <link rel="stylesheet" href="../css/general/general.css">
-    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/profile/profile.css">
 </head>
 <body>
 <div class="container-fluid" style="padding: 0">
-    <!-- remove style="" -->
+    <!-- Header -->
     <header class="container-fluid bg-light border-bottom px-0 py-md-1 py-lg-2">
         <div class="row align-items-center p-0">
             <div class="col-2 justify-content-sm-start d-flex p-0">
@@ -65,9 +65,12 @@
         </div>
     </header>
 
+    <!-- Main Profile Body -->
     <div class="d-flex" style="min-height: 90vh;">
         <div class="collapse collapse-horizontal show bg-light p-0 pt-3" id="sidebar"
              style=" border-right: 1px solid lightgray;">
+            <!-- Left Sidebar -->
+
             <nav class="nav flex-column row-gap-4 ms-0 px-lg-4 px-md-0">
                 <a class="nav-link p-0" href="Main.html">
                     <button class="btn btn-transp gap-2 d-flex align-items-center" type="button">
@@ -113,6 +116,8 @@
             </nav>
         </div>
 
+        <!-- Main Profile Content -->
+
         <div class="flex-grow-1 container-fluid row" style="width: 70%">
 
             <div class="col-8">
@@ -123,13 +128,18 @@
                                 <h1 class="profile-title">
                                     Maksatovdias
                                 </h1>
-                                <button class="profile-menu-btn">
+                                <button class="profile-menu-btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
                                     <svg width="25" height="25" viewBox="0 0 25 25" fill="none">
                                         <circle cx="6" cy="12" r="2" fill="currentColor"/>
                                         <circle cx="12" cy="12" r="2" fill="currentColor"/>
                                         <circle cx="18" cy="12" r="2" fill="currentColor"/>
                                     </svg>
                                 </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Copy link to profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Design your profile</a></li>
+                                </ul>
                             </div>
                             <div class="profile-nav" style="align-content: center;">
                                 <ul class="nav nav-underline">
@@ -157,13 +167,17 @@
                         <div class="reading-list-content">
                             <div class="reading-list-header">
                                 <h2 class="reading-list-title">Reading list</h2>
-                                <button class="profile-menu-btn">
+                                <button class="profile-menu-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <svg width="25" height="25" viewBox="0 0 25 25" fill="none">
                                         <circle cx="6" cy="12" r="2" fill="currentColor"/>
                                         <circle cx="12" cy="12" r="2" fill="currentColor"/>
                                         <circle cx="18" cy="12" r="2" fill="currentColor"/>
                                     </svg>
                                 </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Copy link</a></li>
+                                    <li><a class="dropdown-item" href="#">Edit list</a></li>
+                                </ul>
                             </div>
                         </div>
 
@@ -176,11 +190,6 @@
                                         <span class="rc-author-name">Maksatovdias</span>
                                     </div>
                                     <button class="rc-menu-btn" aria-label="Card menu"></button>
-                                    <svg width="25" height="25" viewBox="0 0 25 25">
-                                        <circle cx="6" cy="12" r="2" fill="currentColor"/>
-                                        <circle cx="12" cy="12" r="2" fill="currentColor"/>
-                                        <circle cx="18" cy="12" r="2" fill="currentColor"/>
-                                    </svg>
                                 </div>
                                 <h3 class="rc-title">Dias is story</h3>
                                 <p class="rc-subtitle">he became a full-stack developer</p>
@@ -198,11 +207,6 @@
                                         <span class="rc-author-name">Qairatulyerasyl</span>
                                     </div>
                                     <button class="rc-menu-btn" aria-label="Card menu"></button>
-                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none">
-                                        <circle cx="6" cy="12" r="2" fill="currentColor"/>
-                                        <circle cx="12" cy="12" r="2" fill="currentColor"/>
-                                        <circle cx="18" cy="12" r="2" fill="currentColor"/>
-                                    </svg>
                                 </div>
                                 <h3 class="rc-title">Erasyl is story</h3>
                                 <p class="rc-subtitle">he beacme a full-stack developer</p>
@@ -217,6 +221,7 @@
                 </div>
             </div>
 
+            <!-- Right Sidebar(Profile Card) -->
             <div class="col-4">
                 <div class="sidebar-container">
                     <div class="sidebar-profile-card">

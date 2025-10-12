@@ -29,7 +29,6 @@
     margin-right: 10px;
 }
 
-/* Mobile responsive styles for header */
 @media (max-width: 768px) {
     header {
         position: relative;
