@@ -29,9 +29,16 @@
     margin-right: 10px;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+
 @media (max-width: 768px) {
     header {
-        position: relative;
+        position: sticky;
+        top: 0;
         z-index: 1050;
     }
 
@@ -48,18 +55,15 @@
         height: 1.2em;
     }
 
-    /* Hide middle column (search bar) on mobile */
     header .row > .col-8 {
         display: none !important;
     }
 
-    /* Adjust left column */
     header .row > .col-2:first-child {
         flex: 0 0 auto;
         width: 50% !important;
     }
 
-    /* Adjust right column */
     header .row > .col-2:last-child {
         flex: 0 0 auto;
         width: 48% !important;
