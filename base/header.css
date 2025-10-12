@@ -28,3 +28,67 @@
     margin-top: 4px;
     margin-right: 10px;
 }
+
+/* Mobile responsive styles for header */
+@media (max-width: 768px) {
+    header {
+        position: relative;
+        z-index: 1050;
+    }
+
+    .logo-text {
+        font-size: 20px;
+    }
+
+    .btn-transp span {
+        display: none;
+    }
+
+    .btn-transp svg {
+        width: 1.2em;
+        height: 1.2em;
+    }
+
+    /* Hide middle column (search bar) on mobile */
+    header .row > .col-8 {
+        display: none !important;
+    }
+
+    /* Adjust left column */
+    header .row > .col-2:first-child {
+        flex: 0 0 auto;
+        width: 50% !important;
+    }
+
+    /* Adjust right column */
+    header .row > .col-2:last-child {
+        flex: 0 0 auto;
+        width: 48% !important;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .main-pfp {
+        height: 28px;
+        width: 28px;
+        margin-right: 5px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    header .row > .col-2:first-child {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+
+    header .row > .col-8 {
+        flex: 0 0 auto;
+        width: 60%;
+    }
+
+    header .row > .col-2:last-child {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+}

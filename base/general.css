@@ -2,3 +2,41 @@ a{
     text-decoration: none;
     color: black;
 }
+
+/* Make cards take almost full width in main body */
+.p-3[style*="width: 70%"] .col-2 {
+    flex: 0 0 auto;
+    width: 5% !important;
+}
+
+.p-3[style*="width: 70%"] .col-8 {
+    flex: 0 0 auto;
+    width: 90% !important;
+}
+
+/* Global mobile layout adjustments */
+@media (max-width: 992px) {
+    .d-flex[style*="min-height: 90vh"] > .p-3[style*="width: 70%"] {
+        width: 100% !important;
+        padding: 1rem !important;
+    }
+    
+    .d-flex[style*="min-height: 90vh"] > .p-3[style*="width: 70%"] .col-2 {
+        display: none !important;
+    }
+    
+    .d-flex[style*="min-height: 90vh"] > .p-3[style*="width: 70%"] .col-8 {
+        flex: 0 0 auto;
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .container-fluid {
+        padding: 0 !important;
+    }
+}
