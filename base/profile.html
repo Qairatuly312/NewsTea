@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>NewsTea</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="leftbar.css">
+    <link rel="stylesheet" href="mainbody.css">
+    <link rel="stylesheet" href="rightbar.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="container-fluid" style="padding: 0">
+    <!-- remove style="" -->
+   <header class="container-fluid bg-light border-bottom px-0 py-md-1 py-lg-2" >
+        <div class="row align-items-center p-0">
+            <div class="col-2 justify-content-sm-start d-flex p-0">
+                <button class="btn-transp ms-4" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         width="24" height="24"
+                         class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                              d="M2.5 12a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-4a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-4a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11z"/>
+                    </svg>
+                </button>
+
+                <button class="btn py-0" style="border: none"><span class="m-0 logo-text">NewsTea</span></button>
+            </div>
+
+
+            <div class="col-8 text-start p-0">
+                <nav class="navbar navbar-expand-lg" style="">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <form class="d-flex" role="search" style="width: 30%;">
+                            <input class="form-control px-4" type="search" placeholder="Search" aria-label="Search"
+                                   style="border: none; background: rgb(238,238,238); border-radius: 50px; font-weight: 300;"/>
+                        </form>
+                    </div>
+                    `
+                </nav>
+            </div>
+
+            <div class="col-2 text-end justify-content-sm-end d-flex p-0" style="">
+                <button class="btn btn-transp gap-2" type="button">
+                    <svg class="svg-icon"
+                         style="width: 1.5em; height: 1.5em; fill: currentColor;"
+                         viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M512.761856 230.106112l-360.31488 0L152.446976 871.2448l589.847552 0L742.294528 544.626688l51.291136-48.973824L793.585664 871.2448c0 28.324864-22.966272 51.291136-51.291136 51.291136l-589.847552 0c-28.324864 0-51.291136-22.966272-51.291136-51.291136l0-641.138688c0-28.325888 22.966272-51.291136 51.291136-51.291136L563.289088 178.814976l1.276928 1.277952L512.761856 230.106112zM806.509568 152.706048c15.490048 0.776192 30.027776 7.675904 40.445952 19.171328 13.686784 10.894336 22.514688 26.747904 24.594432 44.115968-1.62816 18.169856-10.317824 34.987008-24.205312 46.83264-14.263296 14.738432-126.02368 125.159424-332.102656 328.269824l-15.777792 15.552512c-23.629824 7.300096-80.217088 25.483264-122.993664 39.281664 13.774848-45.48096 30.304256-100.427776 37.666816-126.399488 44.053504-44.003328 335.307776-334.820352 346.377216-345.726976 12.335104-12.284928 28.663808-19.74784 46.031872-21.050368M806.546432 101.465088c-30.954496 1.214464-60.319744 14.062592-82.221056 35.989504C712.329216 149.300224 372.349952 488.790016 372.349952 488.790016c-2.679808 2.705408-4.608 6.048768-5.597184 9.730048-9.203712 34.035712-55.360512 185.116672-55.824384 186.61888-2.354176 7.713792-0.25088 16.104448 5.459968 21.801984 4.007936 4.032512 9.46688 6.286336 15.152128 6.273024 2.229248 0.013312 4.458496-0.324608 6.587392-0.989184 1.577984-0.526336 157.492224-50.939904 183.149568-58.60352 3.381248-1.01376 6.462464-2.842624 8.979456-5.310464 16.191488-15.978496 328.671232-323.611648 353.902592-349.745152 26.145792-26.923008 39.156736-55.022592 38.656-83.34848-1.990656-31.118336-16.57856-60.094464-40.3968-80.2304-19.871744-20.774912-47.19616-32.80896-75.933696-33.434624l0 0L806.546432 101.465088z"/>
+                    </svg>
+                    <span>Write</span>
+                </button>
+                <button class="btn btn-transp" type="button">
+                    <svg class="svg-icon"
+                         style="width: 1.5em; height: 1.5em; fill: currentColor;"
+                         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 22c1.104 0 2-.896 2-2H10c0 1.104.896 2 2 2zm6-6V10c0-3.314-2.686-6-6-6V3a1 1 0 0 0-2 0v1c-3.314 0-6 2.686-6 6v6l-2 2h16l-2-2z"/>
+                    </svg>
+                </button>
+                <button class="button-transparent"><img class="main-pfp" src="IMG_4577.jpg" alt=""></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="d-flex" style="min-height: 90vh;">
+        <div class="collapse collapse-horizontal show bg-light p-0 pt-3" id="sidebar"
+             style=" border-right: 1px solid lightgray;">
+            <nav class="nav flex-column row-gap-4 ms-0 px-lg-4 px-md-0">
+                <a class="nav-link d-flex align-items-center" href="/base/Base.html" style="color: darkgray;">
+                    <img src="IMG_4577.jpg" alt="Logo" width="30" height="24" class="me-2 rounded-circle">
+                    <span>Home</span>
+                </a>
+                <a class="nav-link d-flex align-items-center" href="#" style="color: darkgray;">
+                    <img src="IMG_4577.jpg" alt="Logo" width="30" height="24" class="me-2 rounded-circle">
+                    Library
+                </a>
+                <a class="nav-link d-flex align-items-center" href="/base/profile.html" style="color: darkgray;">
+                    <img src="IMG_4577.jpg" alt="Logo" width="30" height="24" class="me-2 rounded-circle">
+                    Profile
+                </a>
+                <a class="nav-link d-flex align-items-center" href="#" style="color: darkgray;">
+                    <img src="IMG_4577.jpg" alt="Logo" width="30" height="24" class="me-2 rounded-circle">
+                    Stories
+                </a>
+                <a class="nav-link d-flex align-items-center" href="#" style="color: darkgray;">
+                    <img src="IMG_4577.jpg" alt="Logo" width="30" height="24" class="me-2 rounded-circle">
+                    Stats
+                </a>
+            </nav>
+        </div>
+        <div class="flex-grow-1">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="profile-container">
+                            <div class="profile-header">
+                                <div class="profile-content">
+                                    <div class="profile-title-section">
+                                        <h1 class="profile-title">
+                                            Maksatovdias
+                                        </h1>
+                                        <button class="profile-menu-btn">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                                <circle cx="6" cy="12" r="2" fill="currentColor"/>
+                                                <circle cx="12" cy="12" r="2" fill="currentColor"/>
+                                                <circle cx="18" cy="12" r="2" fill="currentColor"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="profile-nav">
+                                        <a href="/base/Base.html" class="nav-tab active">Home</a>
+                                        <a href="#" class="nav-tab">About</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="profile-info-section">
+                                <div class="profile-info-content">
+                                    <div class="profile-avatar-section">
+                                        <img src="IMG_4577.jpg" alt="Not Found" class="profile-avatar">
+                                        <span class="profile-username">Maksatovdias</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="reading-list-section">
+                                <div class="reading-list-content">
+                                    <div class="reading-list-header">
+                                        <h2 class="reading-list-title">Reading list</h2>
+                                        <button class="reading-list-menu-btn">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                                <circle cx="6" cy="12" r="2" fill="currentColor"/>
+                                                <circle cx="12" cy="12" r="2" fill="currentColor"/>
+                                                <circle cx="18" cy="12" r="2" fill="currentColor"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="reading-cards">
+                                    <article class="reading-card">
+                                        <div class="rc-header">
+                                            <div class="rc-author">
+                                                <img src="IMG_4577.jpg" alt="Not found" class="rc-avatar">
+                                                <span class="rc-author-name">Maksatovdias</span>
+                                            </div>
+                                            <button class="rc-menu-btn" aria-label="Card menu">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                                <circle cx="6" cy="12" r="2" fill="currentColor"/>
+                                                <circle cx="12" cy="12" r="2" fill="currentColor"/>
+                                                <circle cx="18" cy="12" r="2" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <h3 class="rc-title">Dias is story</h3>
+                                        <p class="rc-subtitle">he became a full-stack developer</p>
+                                        <div class="rc-meta">
+                                            <span>Oct 12</span>
+                                            <span class="rc-dot">•</span>
+                                            <span>5 min read</span>
+                                        </div>
+                                    </article>
+
+                                    <article class="reading-card">
+                                        <div class="rc-header">
+                                            <div class="rc-author">
+                                                <img src="IMG_4577.jpg" alt="Not found" class="rc-avatar">
+                                                <span class="rc-author-name">Qairatulyerasyl</span>
+                                            </div>
+                                            <button class="rc-menu-btn" aria-label="Card menu">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                                <circle cx="6" cy="12" r="2" fill="currentColor"/>
+                                                <circle cx="12" cy="12" r="2" fill="currentColor"/>
+                                                <circle cx="18" cy="12" r="2" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <h3 class="rc-title">Erasyl is story</h3>
+                                        <p class="rc-subtitle">he beacme a full-stack developer</p>
+                                        <div class="rc-meta">
+                                            <span>Oct 15</span>
+                                            <span class="rc-dot">•</span>
+                                            <span>10 min read</span>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="sidebar-container">
+                            <div class="sidebar-profile-card">
+                                <div class="sidebar-profile-header">
+                                    <img src="IMG_4577.jpg" alt="Not found" class="sidebar-profile-avatar">
+                                </div>
+                                <div class="sidebar-profile-info">
+                                    <h3 class="sidebar-profile-name">
+                                        Maksatovdias
+                                    </h3>
+                                    <a href="#" class="sidebar-edit-profile">Edit profile</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
