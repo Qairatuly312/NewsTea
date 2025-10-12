@@ -3,6 +3,10 @@ a {
     color: black;
 }
 
+.nav-link:hover{
+    color: black !important;
+}
+
 .news-card {
     transition: background-color .15s ease, box-shadow .15s ease, transform .1s ease;
     border-radius: 12px;
